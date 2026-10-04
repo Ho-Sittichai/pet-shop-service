@@ -610,22 +610,5 @@
     "Description": "Pastel Banana morph with pastel yellow and lavender speckles. Shy, calm, and loves curling into gentle balls.",
     "CreatedAt": "2026-03-31T16:00:00+07:00",
     "UpdatedAt": "2026-10-04T22:54:09.9351222+07:00"
-  },
-  {
-    "Id": 42,
-    "Name": "Test",
-    "CategoryId": 1,
-    "CategoryName": "Dogs",
-    "Breed": "Test",
-    "Age": 1,
-    "AgeUnit": "Months",
-    "Gender": "Male",
-    "Price": 100,
-    "Status": "Available",
-    "HealthStatus": "",
-    "ImageUrl": "",
-    "Description": "",
-    "CreatedAt": "2026-10-04T22:58:59.6152615+07:00",
-    "UpdatedAt": "2026-10-04T23:02:29.6594595+07:00"
   }
 ]

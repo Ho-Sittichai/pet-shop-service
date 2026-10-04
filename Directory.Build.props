@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup Condition="'$(USERPROFILE)' != ''">
+    <BaseIntermediateOutputPath>$(USERPROFILE)\.build-cache\petshop\obj\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(USERPROFILE)\.build-cache\petshop\bin\</BaseOutputPath>
+  </PropertyGroup>
+</Project>

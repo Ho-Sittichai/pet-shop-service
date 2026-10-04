@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "Name": "Dogs",
+    "Description": "Friendly canines, puppies, and trained companionship dogs",
+    "Icon": "dog",
+    "CreatedAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "Id": 2,
+    "Name": "Cats",
+    "Description": "Playful kittens and purebred companions",
+    "Icon": "cat",
+    "CreatedAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "Id": 3,
+    "Name": "Birds",
+    "Description": "Parrots, conures, canaries, and singing companions",
+    "Icon": "bird",
+    "CreatedAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "Id": 4,
+    "Name": "Aquarium & Fish",
+    "Description": "Freshwater and saltwater ornamental fish and display species",
+    "Icon": "fish",
+    "CreatedAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "Id": 5,
+    "Name": "Small Pets",
+    "Description": "Rabbits, hamsters, guinea pigs, and gentle small creatures",
+    "Icon": "rabbit",
+    "CreatedAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "Id": 6,
+    "Name": "Reptiles & Exotics",
+    "Description": "Geckos, tortoises, bearded dragons, and exotic terrarium companions",
+    "Icon": "lizard",
+    "CreatedAt": "2026-01-01T00:00:00Z"
+  }
+]

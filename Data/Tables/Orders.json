@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "OrderNumber": "ORD-2026-001",
+    "CustomerName": "Alice Johnson",
+    "CustomerPhone": "081-234-5678",
+    "CustomerEmail": "alice.j@example.com",
+    "PetId": 3,
+    "PetName": "Charlie (French Bulldog)",
+    "TotalAmount": 22000,
+    "PaymentMethod": "Credit Card",
+    "Status": "Completed",
+    "Notes": "Customer completed adoption agreement and pickup.",
+    "CreatedAt": "2026-03-01T16:00:00+07:00"
+  },
+  {
+    "Id": 2,
+    "OrderNumber": "ORD-2026-002",
+    "CustomerName": "Bob Smith",
+    "CustomerPhone": "089-876-5432",
+    "CustomerEmail": "bob.smith@example.com",
+    "PetId": 7,
+    "PetName": "Snowball (Holland Lop Rabbit)",
+    "TotalAmount": 2800,
+    "PaymentMethod": "Bank Transfer",
+    "Status": "Pending",
+    "Notes": "Deposit paid. Awaiting scheduled pickup this weekend.",
+    "CreatedAt": "2026-03-15T17:20:00+07:00"
+  },
+  {
+    "Id": 3,
+    "OrderNumber": "ORD-25691004142956-329",
+    "CustomerName": "Standard User",
+    "CustomerPhone": "081-234-5678",
+    "CustomerEmail": "user@petshop.local",
+    "PetId": 34,
+    "PetName": "Spike",
+    "TotalAmount": 5500,
+    "PaymentMethod": "PromptPay",
+    "Status": "Completed",
+    "Notes": "Adopted via PawStore Storefront",
+    "CreatedAt": "2026-10-04T21:29:56.4833441+07:00"
+  },
+  {
+    "Id": 4,
+    "OrderNumber": "ORD-25691004143424-407",
+    "CustomerName": "Administrator",
+    "CustomerPhone": "081-234-5678",
+    "CustomerEmail": "admin@petshop.local",
+    "PetId": 35,
+    "PetName": "Shelly",
+    "TotalAmount": 6800,
+    "PaymentMethod": "PromptPay",
+    "Status": "Completed",
+    "Notes": "Adopted via PawStore Storefront",
+    "CreatedAt": "2026-10-04T21:34:24.6561363+07:00"
+  },
+  {
+    "Id": 5,
+    "OrderNumber": "ORD-25691004150422-124",
+    "CustomerName": "Administrator",
+    "CustomerPhone": "081-234-5678",
+    "CustomerEmail": "admin@petshop.local",
+    "PetId": 33,
+    "PetName": "Mango",
+    "TotalAmount": 3800,
+    "PaymentMethod": "PromptPay",
+    "Status": "Completed",
+    "Notes": "Adopted via PawStore Storefront",
+    "CreatedAt": "2026-10-04T22:04:22.4343716+07:00"
+  }
+]

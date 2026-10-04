@@ -1,0 +1,22 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Temporary SQLite files
+*.db-shm
+*.db-wal
+
+# Ensure mock database JSON tables are always tracked
+!Data/Tables/*.json

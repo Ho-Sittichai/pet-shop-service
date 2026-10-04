@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Username": "admin",
+    "PasswordHash": "$2a$11$4u.rZgDqjRz6HjM8kPvTnefE1GZgQo39L4qXzW3hF4Uu9S2Bv4KkO",
+    "FullName": "Administrator",
+    "Telephone": "089-999-9999",
+    "Email": "admin@petshop.local",
+    "Role": "Admin",
+    "CreatedAt": "2026-01-01T07:00:00+07:00"
+  },
+  {
+    "Id": 2,
+    "Username": "user",
+    "PasswordHash": "$2a$11$4u.rZgDqjRz6HjM8kPvTnefE1GZgQo39L4qXzW3hF4Uu9S2Bv4KkO",
+    "FullName": "Standard User",
+    "Telephone": "081-234-5678",
+    "Email": "user@petshop.local",
+    "Role": "User",
+    "CreatedAt": "2026-01-05T07:00:00+07:00"
+  }
+]

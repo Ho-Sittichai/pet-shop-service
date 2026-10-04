@@ -18,5 +18,15 @@
     "Email": "user@petshop.local",
     "Role": "User",
     "CreatedAt": "2026-01-05T07:00:00+07:00"
+  },
+  {
+    "Id": 8,
+    "Username": "Test",
+    "PasswordHash": "$2a$11$Wwi95Jv06JvBnY1WRkXas.T96k5kCPpOyPcUVyrVNDYrnj0firfku",
+    "FullName": "test",
+    "Telephone": "0997343333",
+    "Email": "mail@mail.com",
+    "Role": "User",
+    "CreatedAt": "2026-10-04T22:54:04.011978+07:00"
   }
 ]

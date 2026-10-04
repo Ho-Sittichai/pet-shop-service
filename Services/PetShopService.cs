@@ -71,11 +71,9 @@ namespace PetShop.Api.Services
                 Gender = request.Gender,
                 Price = request.Price,
                 Status = string.IsNullOrWhiteSpace(request.Status) ? "Available" : request.Status,
-                HealthStatus = request.HealthStatus ?? "",
-                ImageUrl = string.IsNullOrWhiteSpace(request.ImageUrl) 
-                    ? "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=600&q=80" 
-                    : request.ImageUrl,
-                Description = request.Description ?? "",
+                HealthStatus = request.HealthStatus?.Trim() ?? "",
+                ImageUrl = request.ImageUrl?.Trim() ?? "",
+                Description = request.Description?.Trim() ?? "",
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow
             };
@@ -105,9 +103,9 @@ namespace PetShop.Api.Services
             existingPet.Gender = request.Gender;
             existingPet.Price = request.Price;
             existingPet.Status = request.Status;
-            existingPet.HealthStatus = request.HealthStatus ?? "";
-            existingPet.ImageUrl = string.IsNullOrWhiteSpace(request.ImageUrl) ? existingPet.ImageUrl : request.ImageUrl;
-            existingPet.Description = request.Description ?? "";
+            existingPet.HealthStatus = request.HealthStatus?.Trim() ?? "";
+            existingPet.ImageUrl = request.ImageUrl?.Trim() ?? "";
+            existingPet.Description = request.Description?.Trim() ?? "";
             existingPet.UpdatedAt = DateTime.UtcNow;
 
             var updated = await _petRepository.UpdateAsync(existingPet);

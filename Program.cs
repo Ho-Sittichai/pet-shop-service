@@ -53,13 +53,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins(
-                "http://localhost:9999",
-                "http://127.0.0.1:9999",
-                "http://127.0.0.1:3000",
-                "https://uat-petshop.local",
-                "https://petshop.com"
-            )
+        policy.SetIsOriginAllowed(_ => true)
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
